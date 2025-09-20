@@ -1,4 +1,4 @@
-📌 3-Tier WordPress Deployment with Docker & Persistent Storage
+### 📌 3-Tier WordPress Deployment with Docker & Persistent Storage
 
 This project demonstrates a 3-Tier architecture deployment of WordPress using Docker & Docker Compose with durable data storage.
 It separates the application into three tiers:
@@ -11,7 +11,7 @@ MySQL (Database Server) → Stores WordPress data with persistence.
 
 Persistent storage ensures that site data and database content remain intact even if containers are stopped or removed.
 
-🚀 Features
+### 🚀 Features
 
 3-Tier Architecture → Clear separation of Web, App, and Database layers.
 
@@ -24,23 +24,6 @@ Custom Nginx Configuration → Optimized for WordPress + PHP-FPM.
 Environment Variables → Secure credential handling via .env.
 
 Ready for Cloud Migration → Can be extended to Kubernetes or AWS ECS.
-
-📂 Project Structure
-3tier-wordpress-docker/
-│── docker-compose.yml        # Docker Compose definition
-│── .env                      # Environment variables
-│── wordpress/
-│   ├── Dockerfile            # Custom WordPress image (PHP extensions)
-│   └── nginx.conf            # Nginx configuration
-│── mysql/
-│   └── init.sql              # Optional DB initialization
-│── data/
-│   ├── db/                   # MySQL persistent data (auto-created)
-│   └── wp/                   # WordPress uploads/data (auto-created)
-│── .vscode/
-│   ├── launch.json           # VS Code Docker debug config
-│   └── settings.json         # VS Code settings
-│── README.md                 # Documentation
 
 ▶️ How to Run
 1️⃣ Clone the Repository
@@ -82,22 +65,8 @@ Run directly with VS Code tasks (.vscode/launch.json)
 
 Debug containers & logs from the Docker Explorer in VS Code.
 
-📊 Architecture Diagram
-            ┌──────────┐
-            │   Nginx  │  <-- Web Layer (port 8080)
-            └────┬─────┘
-                 │
-                 ▼
-         ┌─────────────┐
-         │  WordPress  │  <-- App Layer (PHP-FPM)
-         └────┬────────┘
-              │
-              ▼
-         ┌─────────────┐
-         │   MySQL     │  <-- DB Layer (persistent)
-         └─────────────┘
 
-✅ Use Cases
+### ✅ Use Cases
 
 Local development of WordPress sites.
 
@@ -107,7 +76,9 @@ Understanding 3-tier containerized deployments.
 
 Learning about persistent storage with Docker.
 
-🔮 Future Improvements
+
+
+### 🔮 Future Improvements
 
 Add phpMyAdmin for DB management.
 
