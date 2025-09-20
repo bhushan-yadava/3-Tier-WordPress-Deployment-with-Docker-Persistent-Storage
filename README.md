@@ -1,4 +1,4 @@
-### 📌 3-Tier WordPress Deployment with Docker & Persistent Storage
+## 📌 3-Tier WordPress Deployment with Docker & Persistent Storage
 
 This project demonstrates a 3-Tier architecture deployment of WordPress using Docker & Docker Compose with durable data storage.
 It separates the application into three tiers:
@@ -11,7 +11,9 @@ MySQL (Database Server) → Stores WordPress data with persistence.
 
 Persistent storage ensures that site data and database content remain intact even if containers are stopped or removed.
 
-### 🚀 Features
+
+
+## 🚀 Features
 
 3-Tier Architecture → Clear separation of Web, App, and Database layers.
 
@@ -25,7 +27,10 @@ Environment Variables → Secure credential handling via .env.
 
 Ready for Cloud Migration → Can be extended to Kubernetes or AWS ECS.
 
-▶️ How to Run
+
+
+## ▶️ How to Run
+
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/3tier-wordpress-docker.git
 cd 3tier-wordpress-docker
@@ -45,7 +50,9 @@ docker-compose down
 5️⃣ (Optional) Remove Volumes
 docker-compose down -v
 
-📦 Persistent Storage
+
+
+## 📦 Persistent Storage
 
 WordPress uploads & files → ./data/wp
 
@@ -53,7 +60,7 @@ MySQL database files → ./data/db
 
 This ensures your website content and database are not lost when containers stop.
 
-🛠️ Development with VS Code
+## 🛠️ Development with VS Code
 
 Install VS Code extensions:
 
@@ -66,7 +73,9 @@ Run directly with VS Code tasks (.vscode/launch.json)
 Debug containers & logs from the Docker Explorer in VS Code.
 
 
-### ✅ Use Cases
+
+
+## ✅ Use Cases
 
 Local development of WordPress sites.
 
@@ -78,7 +87,7 @@ Learning about persistent storage with Docker.
 
 
 
-### 🔮 Future Improvements
+## 🔮 Future Improvements
 
 Add phpMyAdmin for DB management.
 
@@ -88,7 +97,9 @@ Extend deployment to Kubernetes (EKS/GKE).
 
 Set up CI/CD with GitHub Actions.
 
-📌 Technologies Used
+
+
+## 📌 Technologies Used
 
 Docker & Docker Compose
 
