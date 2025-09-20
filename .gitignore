@@ -1,0 +1,10 @@
+# Ignore MySQL data and WordPress uploads
+data/db/
+data/wp/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code workspace settings (optional)
+.vscode/
